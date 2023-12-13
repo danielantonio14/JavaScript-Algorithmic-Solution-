@@ -1,3 +1,10 @@
+ /* Objectivo : Desenvolver uma fórmula que calcula a  média de notas de estudantes de um instituto Militar
+ 
+ - Deve ter a capacidade de receber várias notas
+ 
+ */
+ 
+    
  /* Primeira tentativa e errada 
 
  _________________________________________
@@ -23,7 +30,7 @@ Erros?
 
 
 
-// Segunda tentativa erro corrigido kkk lembrar que o objectivo era calcular media nao importava a quantidade de valroes na entrada kk
+// Segunda tentativa erro corrigido kkk lembrar que o objectivo era calcular media nao importava a quantidade de valooes na entrada kk
  // usando for regular 
 
 
@@ -44,5 +51,16 @@ function media(){
     var notas = [2,5,7,6];
     var soma =0;
 
-    for ( var )
+    for ( var passar of notas ){
+
+    };
 }
+
+media()
+
+/*   Sugestões 
+
+- usa a extensão : code runner para rodar javascript no vscode
+
+
+*/
