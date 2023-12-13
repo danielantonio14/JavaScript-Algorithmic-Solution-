@@ -51,12 +51,13 @@ function media(){
     var notas = [2,5,7,6];
     var soma =0;
 
-    for ( var passar of notas ){
-
+    for ( var nota of notas ){
+          soma=+nota;
     };
-}
+    var  media = soma / notas.length;
 
-media()
+}
+media();
 
 /*   Sugestões 
 
