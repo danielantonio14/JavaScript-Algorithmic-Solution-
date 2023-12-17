@@ -59,6 +59,26 @@ function media(){
 }
 media();
 
+
+// Forma moderna e mais limpa, vamos usar o método reduce ( pesquisem como funciona ele)
+// reparem nos 3 pontos no parametro da funcao media  estamos usando o conceito de destruturacao de arrays 
+
+function media (...numbers){ 
+    soma = numbers.reduce((accum,num)=> accum+num,0);
+
+    return soma / numbers.length
+}
+
+console.log(media(2,5,7,6));
+
+
+
+
+
+
+
+
+
 /*   Sugestões 
 
 - usa a extensão : code runner para rodar javascript no vscode
